@@ -14,8 +14,14 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
-      title: "CI/CD Pipeline of DockerBased Application",
-      description: "when DockerFile has a new commit our Jenkins  automates the build process of making a DockerImage and pushing it to DockerHub",
+      title: "Complete CI/CD automation to deploy over Kubernetes",
+      description: "Complete automated CI/CD pipeline using Jenkins & Ansible. It automates the build process using Jenkins maven, creates DockerImage and gets deployed on Kubernetes by using Ansible.",
+      imgUrl: projImg4,
+      Path:"https://github.com/shaggyyy2002"
+    },
+    {
+      title: "CI/CD for a Docker based application",
+      description: "Created a CI/CD pipeline for a Python based application. Here when DockerFile has a new commit our Jenkins  automates the build process of making a DockerImage and pushing it to DockerHub once the process is completed it automatically starts the container and our application  gets deployed.",
       imgUrl: projImg4,
       Path:"https://github.com/shaggyyy2002"
     },
