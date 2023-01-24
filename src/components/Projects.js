@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/CICD.png";
 import projImg5 from "../assets/img/smartbot.jpeg";
 import projImg6 from "../assets/img/aircanvas.png";
+import projImg7 from "../assets/img/project-img4.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,7 +17,7 @@ export const Projects = () => {
     {
       title: "Complete CI/CD automation to deploy over Kubernetes",
       description: "Complete automated CI/CD pipeline using Jenkins & Ansible. It automates the build process using Jenkins maven, creates DockerImage and gets deployed on Kubernetes by using Ansible.",
-      imgUrl: projImg4,
+      imgUrl: projImg7,
       Path:"https://github.com/shaggyyy2002"
     },
     {
