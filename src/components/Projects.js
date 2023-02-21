@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav, Anchor } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpeg";
 import projImg2 from "../assets/img/project-img2.png";
@@ -7,34 +7,36 @@ import projImg4 from "../assets/img/CICD.png";
 import projImg5 from "../assets/img/smartbot.jpeg";
 import projImg6 from "../assets/img/aircanvas.png";
 import projImg7 from "../assets/img/project-img4.png";
+import projImg8 from "../assets/img/project-img8.png";
+import projImg9 from "../assets/img/project-img9.png";
+
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
     {
       title: "Complete CI/CD automation to deploy over Kubernetes",
-      description: "Complete automated CI/CD pipeline using Jenkins & Ansible. It automates the build process using Jenkins maven, creates DockerImage and gets deployed on Kubernetes by using Ansible.",
       imgUrl: projImg7,
-      Path:"https://github.com/shaggyyy2002"
+      path: "https://github.com/shaggyyy2002/Automated-CI-CD-Pipeline",
     },
     {
       title: "CI/CD for a Docker based application",
-      description: "Created a CI/CD pipeline for a Python based application. Here when DockerFile has a new commit our Jenkins  automates the build process of making a DockerImage and pushing it to DockerHub once the process is completed it automatically starts the container and our application  gets deployed.",
       imgUrl: projImg4,
-      Path:"https://github.com/shaggyyy2002"
+      path: "https://github.com/shaggyyy2002/django-todo"
     },
     {
       title: "Smart Bot",
-      description: "Smartbot is a Rule based bot which gives answers to only some set of questions to overcome the problem. We connected our bot to the Internet using Java Swing and AWT so that the queries/questions which are unknown will be searched directly on your Home browser.",
       imgUrl: projImg5,
+      path: "https://github.com/shaggyyy2002/Java-Chatbot"
     },
     {
       title: "Air Canvas",
-      description: "Air Canvas is an OpenCV project which tracks a point(bead) to draw lines/draw diagrams without touching the screen. If integrated with a meeting platform it can help write and draw stuI on air which will be presented on the screen",
       imgUrl: projImg6,
+      path: "https://github.com/shaggyyy2002/Air-Canvas"
     },
   ];
   const blogs = [
@@ -42,18 +44,33 @@ export const Projects = () => {
       title: "Git & Github",
       description: "An Into to Git & Github",
       imgUrl: projImg1,
+      path: "https://blog.kubesimplify.com/git-and-github-a-beginners-guide"
       
     },
     {
       title: "Intro to Terraform",
       description: "Brief Intro about Terraform",
       imgUrl: projImg2,
+      path: "https://blog.kubesimplify.com/introduction-to-terraform"
     },
     {
       title: "DevOps,DevOps Everywhere",
       description: "What is DevOps? An Introduction",
       imgUrl: projImg3,
+      path: "https://nitingouda.hashnode.dev/devops-devops-everywhere"
     }, 
+    {
+      title: "CI/CD using Jenkins Series - Part 1",
+      description: "Basic intro to Jenkins, Installation Guide & UI Overview",
+      imgUrl: projImg8,
+      path: "https://nitingouda.hashnode.dev/cicd-using-jenkins-series-part-1"
+    },
+    {
+      title: "Kubernetes Deployment Strategies",
+      description: "Intro to Deployment Strategies",
+      imgUrl: projImg9,
+      path: "https://nitingouda.hashnode.dev/kubernetes-deployment-strategies"
+    },
   ];
   const seminars = [
     // to be added latter
